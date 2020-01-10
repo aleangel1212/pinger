@@ -1,0 +1,25 @@
+{
+  "url": "http://localhost:3000/test",
+  "interval": 1000,
+  "deltas": {
+    "altRange": [3, 5],
+    "latRange": [10, 15],
+    "longRange": [10, 15]
+  },
+  "maxValues": {
+    "altitude": 1600
+  },
+  "initialPayload": {
+    "altitude": 1580,
+    "lat": 39.7426229,
+    "long": -104.9922001,
+    "satelliteNum": 12,
+    "ascentRate": 0,
+    "primaryRail": { "amps": 0.159, "volts": 9 },
+    "auxRail": { "amps": 0.036, "volts": 5 },
+    "heater": { "amps": 0, "temp": 32.6 },
+    "signalStrength": 2,
+    "xb": "XB",
+    "fireAttempts": 1
+  }
+}
